@@ -8,6 +8,10 @@
         "name": "Beispiel"
     },
     {
+        "id": 2,
+        "name": "Beispiel2"
+    },
+    {
         "id": 3,
         "name": "Sample"
     }
