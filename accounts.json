@@ -30,27 +30,29 @@
          }
       }
    ],
-   "accountsBalances":{
-      "account":{
-         "iban":"FR7612345987650123456789014"
-      },
-      "balances":[
-         {
-            "balanceType":"closingBooked",
-            "balanceAmount":{
-               "currency":"EUR",
-               "amount":"500.00"
-            },
-            "referenceDate":"2017-10-25"
+   "accountsBalances":[
+      {
+         "account":{
+            "iban":"FR7612345987650123456789014"
          },
-         {
-            "balanceType":"expected",
-            "balanceAmount":{
-               "currency":"EUR",
-               "amount":"900.00"
+         "balances":[
+            {
+               "balanceType":"closingBooked",
+               "balanceAmount":{
+                  "currency":"EUR",
+                  "amount":"500.00"
+               },
+               "referenceDate":"2017-10-25"
             },
-            "lastChangeDateTime":"2017-10-25T15:30:35.035Z"
-         }
-      ]
-   }
+            {
+               "balanceType":"expected",
+               "balanceAmount":{
+                  "currency":"EUR",
+                  "amount":"900.00"
+               },
+               "lastChangeDateTime":"2017-10-25T15:30:35.035Z"
+            }
+         ]
+      }
+   ]
 }
