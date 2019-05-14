@@ -1,18 +1,33 @@
-{ "results": [
-    {
-        "id": 1,
-        "name": "Test"
-    },
-    {
-        "id": 2,
-        "name": "Beispiel"
-    },
-    {
-        "id": 2,
-        "name": "Beispiel2"
-    },
-    {
-        "id": 3,
-        "name": "Sample"
-    }
-] }
+{
+   "accounts":[
+      {
+         "resourceId":"3dc3d5b3-7023-4848-9853-f5400a64e80f",
+         "iban":"DE2310010010123456789",
+         "currency":"EUR",
+         "product":"Girokonto",
+         "cashAccountType":"CACC",
+         "name":"Main Account",
+         "_links":{
+            "balances":{
+               "href":"/v1/accounts/3dc3d5b3-7023-4848-9853-f5400a64e80f/balances"
+            },
+            "transactions":{
+               "href":"/v1/accounts/3dc3d5b3-7023-4848-9853-f5400a64e80f/transactions"
+            }
+         }
+      },
+      {
+         "resourceId":"3dc3d5b3-7023-4848-9853-f5400a64e81g",
+         "iban":"DE2310010010123456788",
+         "currency":"USD",
+         "product":"Fremdwährungskonto",
+         "cashAccountType":"CACC",
+         "name":"US Dollar Account",
+         "_links":{
+            "balances":{
+               "href":"/v1/accounts/3dc3d5b3-7023-4848-9853-f5400a64e81g/balances"
+            }
+         }
+      }
+   ]
+}
