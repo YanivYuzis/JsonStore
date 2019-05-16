@@ -191,13 +191,13 @@
          ]
       }
    ],
-   "allUserss":[
+   "allUsers":[
       {
          "id":"123",
-         "pass":"123"
+         "password":"123"
       },
       {
          "id":"yaniv",
-         "pass":"yaniv"
+         "password":"yaniv"
       },
 }
