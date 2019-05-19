@@ -1,6 +1,58 @@
 {
    "allAccounts":[
       {
+         "id":"",
+         "accountsData":{
+            "accounts":[
+               {
+                  "resourceId":"00000000-0000-0000-0000-000000000000",
+                  "iban":"000000000000000000000",
+                  "currency":"EUR",
+                  "product":"Girokonto",
+                  "cashAccountType":"CACC",
+                  "name":"Main Account",
+                  "_links":{
+                     "balances":{
+                        "href":"/v1/accounts/00000000-0000-0000-0000-000000000000/balances"
+                     },
+                     "transactions":{
+                        "href":"/v1/accounts/00000000-0000-0000-0000-000000000000/transactions"
+                     }
+                  }
+               }
+            ]
+         },
+         "accountsBalances":[
+            {
+               "account":{
+                  "iban":"000000000000000000000"
+               },
+               "balances":[
+               ]
+            }
+         ],
+         "acountTransactions":[
+            {
+               "account":{
+                  "iban":"DE2310010010123456799"
+               },
+               "transactions":{
+                  "booked":[
+                  ],
+                  "pending":[
+                  ],
+                  "_links":{
+                     "account":{
+                        "href":"/v1/accounts/00000000-0000-0000-0000-000000000000"
+                     }
+                  }
+               }
+            }
+         ],
+         "consents":[
+         ]
+      },
+      {
          "id":"123",
          "accountsData":{
             "accounts":[
@@ -120,7 +172,6 @@
             }
          ],
          "consents":[
-
          ]
       },
       {
@@ -171,10 +222,24 @@
             }
          ],
          "acountTransactions":[
-
+            {
+               "account":{
+                  "iban":"DE2310010010123456799"
+               },
+               "transactions":{
+                  "booked":[
+                  ],
+                  "pending":[
+                  ],
+                  "_links":{
+                     "account":{
+                        "href":"/v1/accounts/3dc3d5b3-7023-4848-9853-f5400a64e89g"
+                     }
+                  }
+               }
+            }
          ],
          "consents":[
-
          ]
       }
    ],
